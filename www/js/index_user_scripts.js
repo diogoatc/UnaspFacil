@@ -23,32 +23,16 @@
     
     
         /* listitem  Saida */
-    $(document).on("click", ".uib_w_7", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#saida"); 
-    });
+    
     
         /* listitem  Culto */
-    $(document).on("click", ".uib_w_8", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#culto"); 
-    });
+    
     
         /* listitem  Lavanderia */
-    $(document).on("click", ".uib_w_9", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#culto"); 
-    });
+    
     
         /* listitem  Renovação */
-    $(document).on("click", ".uib_w_11", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#Renovacao"); 
-    });
+    
     
         /* listitem  Calendário */
     $(document).on("click", ".uib_w_12", function(evt)
@@ -146,6 +130,40 @@
     {
          /*global activate_page */
          activate_page("#principal"); 
+    });
+    
+        /* button  Voltar */
+    
+    
+        /* graphic button  #culto */
+    
+    
+        /* graphic button  #lavanderia */
+    $(document).on("click", "#lavanderia", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Lavanderia"); 
+    });
+    
+        /* graphic button  #renovacao */
+    $(document).on("click", "#renovacao", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Renovacao"); 
+    });
+    
+        /* graphic button  CRM */
+    $(document).on("click", ".uib_w_11", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#CRM"); 
+    });
+    
+        /* graphic button  #culto */
+    $(document).on("click", "#culto", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#culto"); 
     });
     
         /* button  Voltar */

@@ -813,12 +813,12 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-3 > .col > .content-area {
-    min-height: 176px;
+    min-height: 294px;
   }
 }
 @media all and (min-width: 320px) {
   .row-height-4 > .col > .content-area {
-    min-height: 64px;
+    min-height: 96px;
   }
 }
 @media all {
@@ -886,24 +886,6 @@ label:empty {
 @media all {
   .scale-image img {
     width: 93px;
-  }
-}
-.uib_row_4:not(.cright) > .col {
-  padding-right: 20px;
-}
-.uib_row_4.cright > .col {
-  padding-left: 20px;
-}
-@media all {
-  .col-0_12-12 {
-    width: auto;
-    float: none !important;
-  }
-  .urow:not(.cright) > .col-0_12-12 {
-    padding-right: 0px !important;
-  }
-  .urow.cright > .col-0_12-12 {
-    padding-left: 0px !important;
   }
 }
 .checkbox-padding-left {
@@ -1280,22 +1262,19 @@ label:empty {
 @media all {
   .default-graphic-button {
     border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: grey;
-    background-color: #ffffff;
+    background-color: ;
   }
 }
 @media all {
   .hover-graphic-button:hover {
-    border-radius: 5px;
-    background-color: #eeeeee;
+    border-radius: 10px;
+    background-color: ;
   }
 }
 @media all {
   .active-graphic-button:active {
-    border-radius: 5px;
-    background-color: #dddddd;
+    border-radius: 1px;
+    background-color: ;
   }
 }
 @media all {
@@ -1316,7 +1295,8 @@ label:empty {
 }
 @media all {
   .default-image-sizing > img {
-    width: 50px;
+    width: 100%;
+    height: 50px;
   }
 }
 @media all {
@@ -1498,7 +1478,7 @@ label:empty {
 }
 @media all and (min-width: 320px) {
   .row-height-17 > .col > .content-area {
-    min-height: 440px;
+    min-height: 426px;
   }
 }
 @media all {
@@ -1538,5 +1518,82 @@ label:empty {
     right: auto;
     bottom: 10px;
     left: 0px;
+  }
+}
+@media all {
+  .wrapping-col > .imgmargins,
+  .wrapping-col > .afScrollPanel > .imgmargins {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .wrapping-col > .imgmargins,
+  .wrapping-col > .afScrollPanel > .imgmargins {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .vertical-col > .imgmargins,
+  .vertical-col > .afScrollPanel > .imgmargins {
+    margin-left: 25%;
+  }
+  .vertical-col > .imgmargins,
+  .vertical-col > .afScrollPanel > .imgmargins {
+    margin-left: 25%;
+  }
+  .imgmargins {
+    margin-top: -5px;
+  }
+}
+@media all {
+  .menu-img-sizing > img {
+    width: 100%;
+    height: 70px;
+  }
+}
+@media all {
+  .back-color {
+    background-color: ;
+    background-image: linear-gradient(top, #84b4c0 0%, #84b4c0 0%, #84b4c0 28.739754098360653%, #b3cfd0 47.70321038251366%, #b3cfd0 69.39890710382514%, #b3cfd0 100%, #b3cfd0 100%);
+    background-image: -webkit-linear-gradient(top, #84b4c0 0%, #84b4c0 0%, #84b4c0 28.739754098360653%, #b3cfd0 47.70321038251366%, #b3cfd0 69.39890710382514%, #b3cfd0 100%, #b3cfd0 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media all {
+  .wrapping-col > .senha-margins,
+  .wrapping-col > .afScrollPanel > .senha-margins {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .wrapping-col > .senha-margins,
+  .wrapping-col > .afScrollPanel > .senha-margins {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .senha-margins {
+    margin-top: 25px;
+  }
+}
+@media all {
+  .forms-witdths,
+  .table-thing.forms-witdths {
+    width: 250px;
+  }
+  .forms-witdths,
+  .table-thing.forms-witdths {
+    width: 250px;
+  }
+  .forms-witdths > .narrow-control {
+    text-align: left;
+  }
+}
+@media all {
+  .back-login {
+    background-color: ;
+    background-image: url("../images/Back-main.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
   }
 }
