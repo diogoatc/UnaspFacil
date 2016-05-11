@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "6741ef7d-0bad-40a4-a256-750546815d39",
-      "lastModifiedDate": 1462895810531,
+      "lastModifiedDate": 1462975593598,
       "creationDate": 1462667213782
     },
     "XDK-app-designer": "true",
@@ -133,11 +133,11 @@
         "excludedLibraries_": "",
         "certificateId_": "HMOOBEjpm0SfRKt0o1v5Kw2",
         "cordovaCLIVersion_": "5.4.1",
-        "crosswalkVersion_": "16",
-        "appVersion_": "0.1",
+        "crosswalkVersion_": "shared",
+        "appVersion_": "0.1.1",
         "appAuthor_": "Diogo Lopes",
         "appDescription_": "App MultiFunção do UNASP",
-        "appVersionCode_": "1"
+        "appVersionCode_": "002"
       },
       "iOS": {
         "platform_": "ios",

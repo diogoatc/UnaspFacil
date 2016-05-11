@@ -173,6 +173,13 @@
          activate_page("#principal"); 
     });
     
+        /* button  Voltar */
+    $(document).on("click", ".uib_w_24", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#principal"); 
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();

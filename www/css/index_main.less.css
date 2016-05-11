@@ -922,9 +922,8 @@ label:empty {
 @media all {
   .uib-absolute-positioning-3 {
     top: auto;
-    right: 24.578125px;
-    bottom: 35px;
-    left: auto;
+    right: 25%;
+    bottom: 4%;
   }
 }
 .left-receptacle {
@@ -1284,13 +1283,13 @@ label:empty {
 }
 @media all {
   .default-graphic-sizing {
-    width: 150px !important;
+    height: 20% !important;
+    width: 100%   !important;
     -webkit-flex: 0 0 auto !important;
     -moz-flex: 0 0 auto !important;
     -ms-flex: 0 0 auto !important;
     -o-flex: 0 0 auto !important;
     flex: 0 0 auto !important;
-    padding: 5px;
   }
 }
 @media all {
@@ -1521,32 +1520,19 @@ label:empty {
   }
 }
 @media all {
-  .wrapping-col > .imgmargins,
-  .wrapping-col > .afScrollPanel > .imgmargins {
-    margin-left: 6px;
-    margin-right: 6px;
-  }
-  .wrapping-col > .imgmargins,
-  .wrapping-col > .afScrollPanel > .imgmargins {
-    margin-left: 6px;
-    margin-right: 6px;
+  .vertical-col > .imgmargins,
+  .vertical-col > .afScrollPanel > .imgmargins {
+    margin-left: -1px;
   }
   .vertical-col > .imgmargins,
   .vertical-col > .afScrollPanel > .imgmargins {
-    margin-left: 25%;
-  }
-  .vertical-col > .imgmargins,
-  .vertical-col > .afScrollPanel > .imgmargins {
-    margin-left: 25%;
-  }
-  .imgmargins {
-    margin-top: -5px;
+    margin-left: -1px;
   }
 }
 @media all {
   .menu-img-sizing > img {
     width: 100%;
-    height: 70px;
+    height: 100%;
   }
 }
 @media all {
@@ -1595,5 +1581,34 @@ label:empty {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
+  }
+}
+@media all {
+  .menu-btn-sizing {
+    height: 20% !important;
+    width: 100%  !important;
+    -webkit-flex: 0 0 auto !important;
+    -moz-flex: 0 0 auto !important;
+    -ms-flex: 0 0 auto !important;
+    -o-flex: 0 0 auto !important;
+    flex: 0 0 auto !important;
+  }
+}
+@media all {
+  .uib-absolute-positioning-11 {
+    top: auto;
+    right: auto;
+    bottom: 10px;
+    left: 0px;
+  }
+}
+@media all {
+  .login-btn-width {
+    -webkit-flex: 0 0 auto !important;
+    -moz-flex: 0 0 auto !important;
+    -ms-flex: 0 0 auto !important;
+    -o-flex: 0 0 auto !important;
+    flex: 0 0 auto !important;
+    width: 50%;
   }
 }
